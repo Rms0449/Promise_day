@@ -24,7 +24,8 @@ $("#messageState").on("change", (x) => {
 
 $(".message").on(
   "webkitAnimationEnd oanimationend msAnimationEnd animationend",
-  function (e) {<button onclick="myFunction()">Click me</button>
+  function (e) 
+  {<button onclick="myFunction()">Click me</button>
     console.log("Animation End");
     if ($(".message").hasClass("closeNor")) $(".message").addClass("closed");
     $(".message")
@@ -36,7 +37,8 @@ $(".message").on(
 
 $(".heart").on(
   "webkitAnimationEnd oanimationend msAnimationEnd animationend",
-  function (e) {<button onclick="myFunction()">Click me</button>
+  function (e) 
+  {<button onclick="myFunction()">Click me</button>
     console.log("Animation End");
     if (!$(".heart").hasClass("closeHer"))
       $(".heart").addClass("openedHer").addClass("beating");
