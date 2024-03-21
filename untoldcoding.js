@@ -24,7 +24,7 @@ $("#messageState").on("change", (x) => {
 
 $(".message").on(
   "webkitAnimationEnd oanimationend msAnimationEnd animationend",
-  function (e) {
+  function (e) {<button onclick="myFunction()">Click me</button>
     console.log("Animation End");
     if ($(".message").hasClass("closeNor")) $(".message").addClass("closed");
     $(".message")
