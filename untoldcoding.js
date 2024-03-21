@@ -43,3 +43,5 @@ $(".heart").on(
     else $(".heart").addClass("no-anim").removeClass("beating");
     $(".heart").removeClass("openHer").removeClass("closeHer") 
   }
+  {<button on click="my Function()">click me</button>
+  }
