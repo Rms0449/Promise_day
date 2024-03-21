@@ -36,7 +36,7 @@ $(".message").on(
 
 $(".heart").on(
   "webkitAnimationEnd oanimationend msAnimationEnd animationend",
-  function (e) {
+  function (e) {<button onclick="myFunction()">Click me</button>
     console.log("Animation End");
     if (!$(".heart").hasClass("closeHer"))
       $(".heart").addClass("openedHer").addClass("beating");
